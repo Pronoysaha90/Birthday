@@ -1,0 +1,12 @@
+@import "tailwindcss";
+html,body,#root{height:100%;margin:0;overflow:hidden;background:#05030f;color:#fdf2ff;font-family:'Quicksand',system-ui,sans-serif}
+canvas{touch-action:none;display:block}
+.script{font-family:'Great Vibes',cursive}
+.glass{background:rgba(30,16,60,.45);backdrop-filter:blur(12px);border:1px solid rgba(255,200,240,.25);border-radius:1.25rem}
+.btn{min-height:48px;padding:.65rem 1.6rem;border-radius:999px;border:1px solid rgba(255,214,150,.6);
+ background:linear-gradient(135deg,rgba(255,140,190,.35),rgba(150,110,255,.35));backdrop-filter:blur(8px);
+ color:#fff;font-weight:600;letter-spacing:.03em;cursor:pointer;transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 0 24px rgba(255,170,220,.5)}
+.btn:focus-visible,.icon:focus-visible{outline:2px solid #ffd28a;outline-offset:3px}
+.icon{width:44px;height:44px;border-radius:999px;display:grid;place-items:center;cursor:pointer}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}
